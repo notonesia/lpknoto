@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+	<style>
+		img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{ display: none; }
+	</style>
+	<meta charset="utf-8" />
+	<title>SIMULASI KAIGO INDONESIA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="home-box custom-box">
+	<h3>TEST TEORI KAIGO INDONESIA</h3>
+	<p>Jumlah pertanyaan: <span class="total-question"></span></p>
+	<button type="button" class="btn" onclick="startQuiz()">Mulai Quiz</button>
+</div>
+
+<div class="quiz-box custom-box hide">
+	<div class="question-number">
+		
+	</div>
+	<div class="question-text">
+		
+	</div>
+	<div class="option-container">
+		
+	</div>
+	<div class="next-question-btn">
+		<button type="button" class="btn" onclick="next()">Next</button>
+	<div class="answers-indicator">
+		
+	</div>
+</div>
+
+<div class="result-box custom-box hide">
+	<h1>Hasil</h1>
+	<table>
+		<tr>
+			<td>Jumlah Pertanyaan</td>
+			<td><span class="total-question"></span></td>
+		</tr>
+		<tr>
+			<td>Percobaan</td>
+			<td><span class="total-attempt"></span></td>
+		</tr>
+		<tr>
+			<td>Benar</td>
+			<td><span class="total-correct"></span></td>
+		</tr>
+		<tr>
+			<td>Salah</td>
+			<td><span class="total-wrong"></span></td>
+		</tr>
+		<tr>
+			<td>Persentase</td>
+			<td><span class="percentage"></span></td>
+		</tr>
+		<tr>
+			<td>Jumlah Skor</td>
+			<td><span class="total-score"></span></td>
+		</tr>
+	</table>
+	<button type="button" class="btn" onclick="tryAgainQuiz()">Try Again</button>
+	<a class="btn" href="../index.html">Home</a>
+</div>
+
+<script src="assets/js/kaigo-teori-indo-quest.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
+
+
